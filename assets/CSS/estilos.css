@@ -1,0 +1,95 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../images/login.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contenedor__login{
+    
+    width:100%;
+    padding:80px 20px;
+    position: absolute;
+    border-radius: 20px;
+
+    
+}
+
+.contenedor__login{
+    background-image: url(../images/log1.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width:480px;
+    position:relative;
+    top:185px;
+    left:10px;
+}
+
+.contenedor__login form input{
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    border:none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.contenedor__login form button{
+    width: 50%;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border:none;
+    font-size: 14px;;
+    background: blue;
+    color:white;
+    cursor:pointer;
+    outline: none;
+}
+
+.formulario__login{
+     opacity:1;
+     display:block;
+     
+}
+
+
+ /*Trabajando con responsive Desing*/
+
+@media screen and (max-width:850px){
+
+    main{
+        margin-top: 50px;
+    }
+
+    .contenedor__login{
+        top:-10px;
+        left: -5px;
+        margin:auto;
+
+    }
+    .contenedor__login form{
+        position:relative;
+    }
+ }
